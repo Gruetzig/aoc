@@ -90,5 +90,6 @@ int main(int argc, char* argv[]) {
         pch = strtok(NULL, "\n");
     }
     printf("%d\n", finalval);
+    free(sbuf);
     return 0;
 }
